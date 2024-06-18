@@ -1,0 +1,54 @@
+.body{
+    background-color: beige;
+    background-image: url("../Img/fondo.jpg");
+    background-repeat: repeat-y;
+    background-size:cover;
+    background-position: center;
+    color: rgb(85, 82, 82);
+}
+
+.menuppal{
+    display: flex;
+    flex-direction: column;
+    color: rgb(85, 82, 82);
+}
+.exit{
+    color: black;
+}
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.debajo{
+    margin-top: 2em;
+}
+
+.macrame2{
+    float: none;
+    object-position: center;
+}
+
+
+.video{
+    border-radius: 10px;
+    height: 100%;
+    margin: 1em;
+}
+
+.borderadio{
+    border-radius: 10px;
+}
+
+@media (min-width: 993px){
+    .menuppal{
+        display: flex;
+        flex-direction: row;
+    }
+    .macrame2{
+        float: left;
+    }
+}
